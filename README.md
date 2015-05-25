@@ -17,11 +17,6 @@ grunt-contrib-requirejs Task:
 
 1. use the generated main.js file to optimize the project
 
-## dynamic.html
-This is the current workflow in which the RequireJS configuration is generated dynamically merging two (or more) configuration files. The generated file is passed as configuration to require.config() function in order to prepare the RequireJS context. 
-
-The 'cart/View', 'store/View' and then available.
-
 ## static.html
 This is a normal RequireJS project identical to dynamic.html but with the main.js file and RequireJS configuration static.
 
@@ -29,3 +24,8 @@ This is a normal RequireJS project identical to dynamic.html but with the main.j
 An optimized version of static.html using grunt-contrib-requirejs. 
 
 I would like to achieve the optimized version using the structure of dynamic.html and its generation of RequireJS configuration file.
+
+## dynamic.html
+This is the current workflow in which the RequireJS configuration is generated dynamically merging two (or more) configuration files. The generated file is passed as configuration to require.config() function in order to prepare the RequireJS context. 
+
+The 'cart/View', 'store/View' and then available.

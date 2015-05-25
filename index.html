@@ -28,16 +28,14 @@ Custom Task:
 	<li>merge them together </li>
 	<li>write the result of the merging within a new JS file </li>
 </ol>
-grunt-contrib-requirejs Task: 
+grunt-contrib-requirejs Task:
 
-1. use the generated main.js file to optimize the project
+<ol>
+	<li>use the generated main.js file to optimize the project</li>
+
+</ol>
 
 	<ul>
-		<li><a href="dynamic.html">dynamic.html</a>
-		This is the current workflow in which the RequireJS configuration is generated dynamically merging two (or more) configuration files. The generated file is passed as configuration to require.config() function in order to prepare the RequireJS context.<br>
-		The 'cart/View', 'store/View' and then available.
-		</li>
-
 		<li><a href="static.html">static.html</a>
 		This is a normal RequireJS project identical to dynamic.html but with the main.js file and RequireJS configuration static.
 		</li>
@@ -46,7 +44,13 @@ grunt-contrib-requirejs Task:
 		An optimized version of static.html using grunt-contrib-requirejs. <br>
 		I would like to achieve the optimized version using the structure of dynamic.html and its generation of RequireJS configuration file.
 		</li>
-	</ul>
+
+        <li><a href="dynamic.html">dynamic.html</a>
+            This is the current workflow in which the RequireJS configuration is generated dynamically merging two (or more) configuration files. The generated file is passed as configuration to require.config() function in order to prepare the RequireJS context.<br>
+            The 'cart/View', 'store/View' and then available.
+        </li>
+
+    </ul>
 </div>
 
 </body>

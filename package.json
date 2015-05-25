@@ -1,0 +1,37 @@
+{
+  "name": "requirejs-grunt-dynamic-main.git",
+  "version": "0.0.1",
+  "description": "Dynamic creation of main.js file to optimize the RequireJS based project with grunt-contrib-requirejs plugin.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielefenix/requirejs-grunt-dynamic-main.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "requirejs": "~2.1.14",
+    "domReady": "https://github.com/requirejs/domReady/tarball/master"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-exec": "~0.4.2",
+    "grunt-jsdoc": "~0.5.4",
+    "grunt-jsonlint": "~1.0.4"
+  },
+  "bugs": {
+    "url": "https://github.com/danielefenix/requirejs-grunt-dynamic-main/issues"
+  },
+  "homepage": "https://github.com/danielefenix/requirejs-grunt-dynamic-main"
+}

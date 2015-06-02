@@ -2,7 +2,7 @@
 define(function() {
 
 	var conf = {
-		paths: { 'store/View' : 'scripts/store/views/View' }
+		paths: { 'store/View' : './views/View' }
 	};
 
     return conf;

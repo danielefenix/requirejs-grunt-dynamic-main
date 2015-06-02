@@ -23,12 +23,14 @@
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-copy": "~0.5.0",
     "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-contrib-handlebars": "^0.10.2",
     "grunt-contrib-jshint": "~0.7.2",
     "grunt-contrib-requirejs": "^0.4.4",
     "grunt-contrib-uglify": "~0.2.7",
     "grunt-exec": "~0.4.2",
     "grunt-jsdoc": "~0.5.4",
-    "grunt-jsonlint": "~1.0.4"
+    "grunt-jsonlint": "~1.0.4",
+    "grunt-writefile": "^0.1.2"
   },
   "bugs": {
     "url": "https://github.com/danielefenix/requirejs-grunt-dynamic-main/issues"
